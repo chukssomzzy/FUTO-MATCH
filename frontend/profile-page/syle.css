@@ -1,0 +1,93 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+.profile-container {
+    max-width: auto;
+    margin: auto;
+    background: #F6F7C4;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.profile-header {
+    text-align: center;
+    background: #355F2E;
+    color: #F6F7C4;
+    padding: 20px;
+    position: relative;
+}
+
+.profile-pic {
+    width: 190px;
+    height: 200px;
+    border-radius: 50%;
+    border: 5px solid #F6F7C4;
+    margin-bottom: 10px;
+}
+
+.user-info h1 {
+    margin: 0;
+    font-size: 1.8rem;
+}
+
+.user-info p {
+    margin: 5px 0 0;
+    font-size: 1rem;
+}
+
+.edit-btn {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background: #F6F7C4;
+    color: #355F2E;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    cursor: pointer;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.profile-body {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+h2 {
+    margin-bottom: 10px;
+    font-size: 1.4rem;
+    color: #355F2E;
+}
+
+p, ul {
+    margin: 0;
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+.interests-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.interests-list li {
+    background: #355F2E;
+    color: #F6F7C4;
+    padding: 5px 10px;
+    margin: 5px;
+    border-radius: 15px;
+    font-size: 0.9rem;
+}
